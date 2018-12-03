@@ -6,8 +6,6 @@
 ***********************************************************************************************/
 extern vu16 USART2_RX_STA;
 extern vu16 USART3_RX_STA;
-u8 count_tim4=0;
-u8 count_tim4h=0;
 //配置TIM4预装载周期值
 void TIM4_SetARR(u16 period)
 {

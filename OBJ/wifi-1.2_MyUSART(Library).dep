@@ -1,5 +1,5 @@
 Dependencies for Project 'wifi-1.2', Target 'MyUSART(Library)': (DO NOT MODIFY !)
-F (.\main.c)(0x5BED2840)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\usart3 -I..\ATK_ESP8266 -I..\SYSTEM\RS485 -I..\HARDWARE -I..\SYSTEM -I..\LORA-I D:\xxm\project4-ZNCC\code\wifi-1.2\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I E:\Keil_v5\ARM\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5BF3F062)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\usart3 -I..\ATK_ESP8266 -I..\SYSTEM\RS485 -I..\HARDWARE -I..\SYSTEM -I..\LORA-I D:\xxm\project4-ZNCC\code\wifi-1.2\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I E:\Keil_v5\ARM\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SYSTEM\sys\sys.h)(0x5BECFE0E)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -35,9 +35,9 @@ I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 I (..\HARDWARE\led.h)(0x5BE01ACA)
 I (..\SYSTEM\delay\delay.h)(0x555AC82B)
 I (..\SYSTEM\usart\usart.h)(0x50517A82)
-I (..\SYSTEM\usart2.h)(0x5BEBCECD)
+I (..\SYSTEM\usart2.h)(0x5BF3AA9D)
 I (..\SYSTEM\usart3\usart3.h)(0x5BC5CA0A)
-I (..\LORA\lora_app.h)(0x5BECF3EE)
+I (..\LORA\lora_app.h)(0x5BF3F2C6)
 I (..\LORA\lora_cfg.h)(0x5BE0ED11)
 I (..\ATK_ESP8266\common.h)(0x5BF2BD9C)
 F (.\stm32f10x_it.c)(0x4D99A59E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\usart3 -I..\ATK_ESP8266 -I..\SYSTEM\RS485 -I..\HARDWARE -I..\SYSTEM -I..\LORA-I D:\xxm\project4-ZNCC\code\wifi-1.2\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I E:\Keil_v5\ARM\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
@@ -478,11 +478,11 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-I (..\SYSTEM\usart2.h)(0x5BEBCECD)
+I (..\SYSTEM\usart2.h)(0x5BF3AA9D)
 I (E:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
 I (..\HARDWARE\timer.h)(0x5BF2BE5A)
 I (..\LORA\lora_cfg.h)(0x5BE0ED11)
-I (..\LORA\lora_app.h)(0x5BECF3EE)
+I (..\LORA\lora_app.h)(0x5BF3F2C6)
 F (..\ATK_ESP8266\common.c)(0x5BF2C06D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\usart3 -I..\ATK_ESP8266 -I..\SYSTEM\RS485 -I..\HARDWARE -I..\SYSTEM -I..\LORA-I D:\xxm\project4-ZNCC\code\wifi-1.2\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I E:\Keil_v5\ARM\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\common.o --omf_browse ..\obj\common.crf --depend ..\obj\common.d)
 I (..\ATK_ESP8266\common.h)(0x5BF2BD9C)
 I (..\SYSTEM\sys\sys.h)(0x5BECFE0E)
@@ -555,7 +555,7 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\HARDWARE\timer.c)(0x5BF2B1E7)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\usart3 -I..\ATK_ESP8266 -I..\SYSTEM\RS485 -I..\HARDWARE -I..\SYSTEM -I..\LORA-I D:\xxm\project4-ZNCC\code\wifi-1.2\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I E:\Keil_v5\ARM\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+F (..\HARDWARE\timer.c)(0x5BF3BAAA)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\usart3 -I..\ATK_ESP8266 -I..\SYSTEM\RS485 -I..\HARDWARE -I..\SYSTEM -I..\LORA-I D:\xxm\project4-ZNCC\code\wifi-1.2\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I E:\Keil_v5\ARM\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
 I (..\HARDWARE\timer.h)(0x5BF2BE5A)
 I (..\SYSTEM\sys\sys.h)(0x5BECFE0E)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
@@ -591,7 +591,7 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 I (..\SYSTEM\delay\delay.h)(0x555AC82B)
 F (..\LORA\lora_app.c)(0x5BED1A94)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CORE -I..\USER -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\SYSTEM\usart3 -I..\ATK_ESP8266 -I..\SYSTEM\RS485 -I..\HARDWARE -I..\SYSTEM -I..\LORA-I D:\xxm\project4-ZNCC\code\wifi-1.2\USER\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I E:\Keil_v5\ARM\CMSIS\Include-I E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\lora_app.o --omf_browse ..\obj\lora_app.crf --depend ..\obj\lora_app.d)
-I (..\LORA\lora_app.h)(0x5BECF3EE)
+I (..\LORA\lora_app.h)(0x5BF3F2C6)
 I (..\SYSTEM\sys\sys.h)(0x5BECFE0E)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
 I (..\CORE\core_cm3.h)(0x4D523B58)
@@ -625,6 +625,6 @@ I (E:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (E:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
 I (..\LORA\lora_cfg.h)(0x5BE0ED11)
-I (..\SYSTEM\usart2.h)(0x5BEBCECD)
+I (..\SYSTEM\usart2.h)(0x5BF3AA9D)
 I (..\HARDWARE\led.h)(0x5BE01ACA)
 I (..\SYSTEM\delay\delay.h)(0x555AC82B)

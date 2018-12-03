@@ -4,8 +4,8 @@
 #include "sys.h"
 #include "lora_cfg.h"
 
-#define LORA_AUX  PAin(4)    //LORA模块状态引脚
-#define LORA_MD0  PAout(5)  //LORA模块控制引脚
+#define LORA_AUX  PAin(6)    //LORA模块状态引脚
+#define LORA_MD0  PAout(7)  //LORA模块控制引脚
 
 extern _LoRa_CFG LoRa_CFG;
 extern u8 Lora_mode;
